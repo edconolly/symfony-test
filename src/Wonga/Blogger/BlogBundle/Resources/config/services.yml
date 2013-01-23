@@ -1,0 +1,7 @@
+parameters:
+#    wonga_blogger_blog.example.class: Wonga\Blogger\BlogBundle\Example
+
+services:
+#    wonga_blogger_blog.example:
+#        class: %wonga_blogger_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

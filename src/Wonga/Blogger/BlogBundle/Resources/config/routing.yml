@@ -1,0 +1,18 @@
+# src/Blogger/BlogBundle/Resources/config/routing.yml
+WongaBloggerBlogBundle_homepage:
+    pattern:  /
+    defaults: { _controller: WongaBloggerBlogBundle:Page:index }
+    requirements:
+        _method:  GET
+        
+WongaBloggerBlogBundle_about:
+    pattern:  /about
+    defaults: { _controller: WongaBloggerBlogBundle:Page:about }
+    requirements:
+        _method:  GET
+        
+WongaBloggerBlogBundle_contact:
+    pattern:  /contact
+    defaults: { _controller: WongaBloggerBlogBundle:Page:contact }
+    requirements:
+        _method:  GET
